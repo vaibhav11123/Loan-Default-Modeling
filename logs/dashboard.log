@@ -1,0 +1,135 @@
+2025-06-20 02:31:09,920 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:31:10,363 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:31:10,364 - ERROR - Model not found
+2025-06-20 02:37:27,895 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:37:28,271 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:37:28,718 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 02:37:28,806 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 02:37:28,846 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 02:37:30,800 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 02:37:30,820 - INFO - Displayed credit_score_dist.html
+2025-06-20 02:37:30,850 - INFO - Displayed dti_by_default.html
+2025-06-20 02:37:30,877 - INFO - Displayed outliers.html
+2025-06-20 02:37:30,904 - INFO - Displayed anomalies.html
+2025-06-20 02:37:30,937 - INFO - Displayed yearly_defaults.html
+2025-06-20 02:37:30,956 - INFO - Displayed corr_defaulted.html
+2025-06-20 02:37:30,990 - INFO - Displayed pair_plot.html
+2025-06-20 02:37:31,033 - INFO - Displayed purpose_defaults.html
+2025-06-20 02:37:31,034 - INFO - Dashboard page displayed: EDA
+2025-06-20 02:37:47,859 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:37:48,207 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:37:48,624 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 02:37:48,659 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 02:37:48,676 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 02:37:49,974 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 02:37:49,977 - WARNING - Feature importance plot not found
+2025-06-20 02:37:49,977 - WARNING - Confusion matrix plot not found
+2025-06-20 02:37:49,977 - WARNING - Precision-recall curve not found
+2025-06-20 02:37:49,977 - WARNING - Model metrics not found
+2025-06-20 02:37:49,977 - INFO - Dashboard page displayed: Model Results
+2025-06-20 02:47:43,497 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:47:43,907 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:47:44,210 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 02:47:44,264 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 02:47:44,294 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 02:47:45,721 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 02:47:46,259 - INFO - Displayed segmentation for cluster 0
+2025-06-20 02:47:46,259 - INFO - Dashboard page displayed: Segmentation
+2025-06-20 02:47:57,119 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:47:57,579 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:47:58,119 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 02:47:58,146 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 02:47:58,172 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 02:47:59,755 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 02:47:59,843 - INFO - Displayed segmentation for cluster 1
+2025-06-20 02:47:59,843 - INFO - Dashboard page displayed: Segmentation
+2025-06-20 02:48:05,356 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:48:05,685 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:48:05,914 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 02:48:05,940 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 02:48:05,955 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 02:48:07,329 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 02:48:07,389 - INFO - Displayed segmentation for cluster 2
+2025-06-20 02:48:07,389 - INFO - Dashboard page displayed: Segmentation
+2025-06-20 02:48:10,586 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:48:10,977 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:48:11,257 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 02:48:11,286 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 02:48:11,314 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 02:48:12,752 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 02:48:12,877 - INFO - Displayed segmentation for cluster 3
+2025-06-20 02:48:12,877 - INFO - Dashboard page displayed: Segmentation
+2025-06-20 02:49:19,377 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 02:49:19,771 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 02:49:20,087 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 02:49:20,113 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 02:49:20,133 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 02:49:22,295 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 02:49:22,309 - WARNING - Feature importance plot not found
+2025-06-20 02:49:22,310 - WARNING - Confusion matrix plot not found
+2025-06-20 02:49:22,310 - WARNING - Precision-recall curve not found
+2025-06-20 02:49:22,311 - WARNING - Model metrics not found
+2025-06-20 02:49:22,312 - INFO - Dashboard page displayed: Model Results
+2025-06-20 03:33:58,307 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 03:33:58,730 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 03:33:59,100 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 03:33:59,182 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 03:33:59,219 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 03:34:01,823 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 03:34:01,877 - INFO - Displayed credit_score_dist.html
+2025-06-20 03:34:01,911 - INFO - Displayed dti_by_default.html
+2025-06-20 03:34:01,942 - INFO - Displayed outliers.html
+2025-06-20 03:34:01,972 - INFO - Displayed anomalies.html
+2025-06-20 03:34:01,986 - INFO - Displayed yearly_defaults.html
+2025-06-20 03:34:02,002 - INFO - Displayed corr_defaulted.html
+2025-06-20 03:34:02,020 - INFO - Displayed pair_plot.html
+2025-06-20 03:34:02,046 - INFO - Displayed purpose_defaults.html
+2025-06-20 03:34:02,046 - INFO - Dashboard page displayed: EDA
+2025-06-20 04:06:39,659 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 04:06:40,216 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 04:06:40,617 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 04:06:40,756 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 04:06:40,812 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 04:06:43,009 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 04:06:43,012 - WARNING - Feature importance plot not found
+2025-06-20 04:06:43,012 - WARNING - Confusion matrix plot not found
+2025-06-20 04:06:43,013 - WARNING - Precision-recall curve not found
+2025-06-20 04:06:43,021 - WARNING - Model metrics not found
+2025-06-20 04:06:43,021 - INFO - Dashboard page displayed: Model Results
+2025-06-20 04:07:13,263 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 04:07:13,715 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 04:07:14,266 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 04:07:14,291 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 04:07:14,308 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 04:07:15,770 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 04:07:15,772 - WARNING - Feature importance plot not found
+2025-06-20 04:07:15,773 - WARNING - Confusion matrix plot not found
+2025-06-20 04:07:15,774 - WARNING - Precision-recall curve not found
+2025-06-20 04:07:15,775 - WARNING - Model metrics not found
+2025-06-20 04:07:15,775 - INFO - Dashboard page displayed: Model Results
+2025-06-20 04:07:41,864 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 04:07:42,271 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 04:07:42,743 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 04:07:42,781 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 04:07:42,805 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 04:07:44,331 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 04:07:44,371 - INFO - Displayed credit_score_dist.html
+2025-06-20 04:07:44,402 - INFO - Displayed dti_by_default.html
+2025-06-20 04:07:44,477 - INFO - Displayed outliers.html
+2025-06-20 04:07:44,501 - INFO - Displayed anomalies.html
+2025-06-20 04:07:44,522 - INFO - Displayed yearly_defaults.html
+2025-06-20 04:07:44,542 - INFO - Displayed corr_defaulted.html
+2025-06-20 04:07:44,574 - INFO - Displayed pair_plot.html
+2025-06-20 04:07:44,586 - INFO - Displayed purpose_defaults.html
+2025-06-20 04:07:44,586 - INFO - Dashboard page displayed: EDA
+2025-06-20 04:07:48,580 - INFO - Starting Streamlit dashboard on June 20, 2025
+2025-06-20 04:07:48,948 - INFO - Loaded dataset: (148670, 34)
+2025-06-20 04:07:49,278 - INFO - Loaded model: random_forest_model.pkl
+2025-06-20 04:07:49,313 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 04:07:49,335 - INFO - Clustering: 24123 rows dropped due to missing values
+2025-06-20 04:07:50,903 - INFO - Added K-means clustering with 4 clusters
+2025-06-20 04:07:50,905 - WARNING - Feature importance plot not found
+2025-06-20 04:07:50,905 - WARNING - Confusion matrix plot not found
+2025-06-20 04:07:50,905 - WARNING - Precision-recall curve not found
+2025-06-20 04:07:50,905 - WARNING - Model metrics not found
+2025-06-20 04:07:50,905 - INFO - Dashboard page displayed: Model Results

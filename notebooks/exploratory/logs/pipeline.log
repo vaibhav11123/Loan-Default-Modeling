@@ -1,0 +1,325 @@
+2025-06-20 01:37:34,960 - INFO - Starting modeling pipeline on June 20, 2025
+2025-06-20 01:37:34,965 - INFO - Loading data from /Users/vaibhavsingh/loan_default_project/data/raw/loan_data.csv
+2025-06-20 01:37:35,266 - INFO - Dataset shape: (148670, 34)
+2025-06-20 01:37:35,285 - WARNING - Column 'income' not found, using loan_amount as fallback
+2025-06-20 01:37:35,290 - WARNING - Column 'property_value' not found, using loan_amount as fallback
+2025-06-20 01:37:35,292 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 01:37:35,334 - INFO - Training set shape: (118936, 12), Test set shape: (29734, 12)
+2025-06-20 01:47:13,910 - INFO - Starting modeling pipeline on June 20, 2025
+2025-06-20 01:47:13,939 - INFO - Loading data from /Users/vaibhavsingh/loan_default_project/data/raw/loan_data.csv
+2025-06-20 01:47:14,323 - INFO - Dataset shape: (148670, 34)
+2025-06-20 01:47:14,351 - WARNING - Column 'income' not found, using loan_amount as fallback
+2025-06-20 01:47:14,360 - WARNING - Column 'property_value' not found, using loan_amount as fallback
+2025-06-20 01:47:14,360 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 01:47:14,415 - INFO - Training set shape: (118936, 12), Test set shape: (29734, 12)
+2025-06-20 01:47:20,217 - INFO - RandomForest ROC-AUC: 0.82
+2025-06-20 01:47:20,481 - INFO - RandomForest Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.94      0.91     22406
+           1       0.77      0.58      0.66      7328
+
+    accuracy                           0.85     29734
+   macro avg       0.82      0.76      0.78     29734
+weighted avg       0.85      0.85      0.85     29734
+
+2025-06-20 01:47:22,338 - INFO - LogisticRegression ROC-AUC: 0.60
+2025-06-20 01:47:22,417 - INFO - LogisticRegression Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.54      0.65     22406
+           1       0.31      0.63      0.42      7328
+
+    accuracy                           0.56     29734
+   macro avg       0.56      0.58      0.53     29734
+weighted avg       0.69      0.56      0.59     29734
+
+2025-06-20 01:51:24,616 - INFO - Best parameters: {'classifier__n_estimators': 200, 'classifier__min_samples_split': 5, 'classifier__max_depth': 20}
+2025-06-20 01:51:25,209 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 01:51:25,209 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 01:51:25,214 - INFO - Optimal Threshold: 0.52
+2025-06-20 01:51:25,242 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 01:51:28,253 - INFO - Model saved to models/random_forest_model.pkl
+2025-06-20 01:51:28,263 - INFO - Model summary:
+    ROC-AUC  F1-Score       MCC    PR-AUC
+0  0.833681  0.675272  0.597349  0.766076
+2025-06-20 01:51:29,129 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 01:51:29,130 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 01:51:29,136 - INFO - Optimal Threshold: 0.52
+2025-06-20 01:51:29,177 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 01:53:16,657 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 01:53:16,658 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 01:53:16,662 - INFO - Optimal Threshold: 0.52
+2025-06-20 01:53:16,687 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 01:57:04,214 - INFO - Starting modeling pipeline on June 20, 2025
+2025-06-20 01:57:04,228 - INFO - Loading data from /Users/vaibhavsingh/loan_default_project/data/raw/loan_data.csv
+2025-06-20 01:57:04,881 - INFO - Dataset shape: (148670, 34)
+2025-06-20 01:57:04,909 - WARNING - Column 'income' not found, using loan_amount as fallback
+2025-06-20 01:57:04,925 - WARNING - Column 'property_value' not found, using loan_amount as fallback
+2025-06-20 01:57:04,926 - INFO - Engineered features: debt_to_income, loan_to_income, credit_score_bin, loan_to_value
+2025-06-20 01:57:05,014 - INFO - Training set shape: (118936, 12), Test set shape: (29734, 12)
+2025-06-20 01:57:10,587 - INFO - RandomForest ROC-AUC: 0.82
+2025-06-20 01:57:10,791 - INFO - RandomForest Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.94      0.91     22406
+           1       0.77      0.58      0.66      7328
+
+    accuracy                           0.85     29734
+   macro avg       0.82      0.76      0.78     29734
+weighted avg       0.85      0.85      0.85     29734
+
+2025-06-20 01:57:12,712 - INFO - LogisticRegression ROC-AUC: 0.60
+2025-06-20 01:57:12,786 - INFO - LogisticRegression Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.54      0.65     22406
+           1       0.31      0.63      0.42      7328
+
+    accuracy                           0.56     29734
+   macro avg       0.56      0.58      0.53     29734
+weighted avg       0.69      0.56      0.59     29734
+
+2025-06-20 02:00:57,785 - INFO - Best parameters: {'classifier__n_estimators': 200, 'classifier__min_samples_split': 5, 'classifier__max_depth': 20}
+2025-06-20 02:00:58,439 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 02:00:58,440 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 02:00:58,444 - INFO - Optimal Threshold: 0.52
+2025-06-20 02:00:58,475 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 02:00:59,716 - INFO - Model saved to models/random_forest_model.pkl
+2025-06-20 02:00:59,733 - INFO - Model summary:
+    ROC-AUC  F1-Score       MCC    PR-AUC
+0  0.833681  0.675272  0.597349  0.766076
+2025-06-20 02:01:00,284 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 02:01:00,284 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 02:01:00,289 - INFO - Optimal Threshold: 0.52
+2025-06-20 02:01:00,318 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 02:07:38,712 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 02:07:38,712 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 02:07:38,717 - INFO - Optimal Threshold: 0.52
+2025-06-20 02:07:38,742 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 02:09:31,809 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 02:09:31,809 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 02:09:31,813 - INFO - Optimal Threshold: 0.52
+2025-06-20 02:09:31,838 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 02:09:32,569 - INFO - Top feature: LTV
+2025-06-20 02:09:32,569 - INFO - Recall for default class: 59.3%
+2025-06-20 02:09:32,569 - INFO - Generated key findings for documentation
+2025-06-20 02:09:32,569 - INFO - Key findings saved to reports/key_findings.md
+2025-06-20 02:16:24,128 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 02:16:24,130 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 02:16:24,135 - INFO - Optimal Threshold: 0.52
+2025-06-20 02:16:24,161 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 02:16:25,139 - INFO - Top feature: LTV
+2025-06-20 02:16:25,139 - INFO - Recall for default class: 59.3%
+2025-06-20 02:16:25,139 - INFO - Generated key findings for documentation
+2025-06-20 02:16:25,139 - INFO - Key findings saved to reports/key_findings.md
+2025-06-20 02:16:35,642 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 02:16:35,642 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 02:16:35,646 - INFO - Optimal Threshold: 0.52
+2025-06-20 02:16:35,670 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 02:16:36,284 - INFO - Top feature: LTV
+2025-06-20 02:16:36,284 - INFO - Recall for default class: 59.3%
+2025-06-20 02:16:36,284 - INFO - Generated key findings for documentation
+2025-06-20 02:16:36,285 - INFO - Key findings saved to reports/key_findings.md
+2025-06-20 02:16:53,188 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.78      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.83      0.77      0.79     29734
+weighted avg       0.85      0.86      0.85     29734
+
+2025-06-20 02:16:53,188 - INFO - ROC-AUC: 0.83, F1-Score: 0.68, MCC: 0.60
+2025-06-20 02:16:53,192 - INFO - Optimal Threshold: 0.52
+2025-06-20 02:16:53,215 - INFO - Classification Report at Optimal Threshold:
+              precision    recall  f1-score   support
+
+           0       0.88      0.95      0.91     22406
+           1       0.80      0.59      0.68      7328
+
+    accuracy                           0.86     29734
+   macro avg       0.84      0.77      0.80     29734
+weighted avg       0.86      0.86      0.85     29734
+
+2025-06-20 02:16:53,841 - INFO - Top feature: LTV
+2025-06-20 02:16:53,841 - INFO - Recall for default class: 59.3%
+2025-06-20 02:16:53,842 - INFO - Generated key findings for documentation
+2025-06-20 02:16:53,842 - INFO - Key findings saved to reports/key_findings.md
+2025-06-20 02:36:54,884 - INFO - Model saved to models/random_forest_model.pkl
+2025-06-20 02:36:54,929 - INFO - Model summary:
+    ROC-AUC  F1-Score       MCC    PR-AUC
+0  0.833681  0.675272  0.597349  0.766076
+2025-06-20 02:37:07,475 - INFO - Model saved to /Users/vaibhavsingh/loan_default_project/models/random_forest_model.pkl
+2025-06-20 02:37:07,486 - INFO - Model summary:
+    ROC-AUC  F1-Score       MCC    PR-AUC
+0  0.833681  0.675272  0.597349  0.766076
+2025-06-20 04:17:34,402 - INFO - Model saved to /Users/vaibhavsingh/loan_default_project/models/random_forest_model.pkl
+2025-06-20 04:17:34,418 - INFO - Model summary:
+    ROC-AUC  F1-Score       MCC    PR-AUC
+0  0.833681  0.675272  0.597349  0.766076
+2025-06-21 01:45:51,561 - ERROR - No such comm target registered: jupyter.widget.control
+2025-06-21 01:45:51,566 - WARNING - No such comm: e14f48fd-9663-483a-a4ac-237e5406966b
